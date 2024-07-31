@@ -1,5 +1,40 @@
+body {
+    font-family: mukta, sans-serif;
+    font-size: 16px;
+    margin: 0; 
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+/* add basic typography to dody style's*/
+
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+    font-family: bitter, serif;
+    font-weight: 500;
+}
+/* add basic typography to heading style's*/
+
 .content {
     max-width: 900px;
     margin: 0 auto;
     padding: 23px;
 }
+
+.info {
+text-align: center;
+text-transform: uppercase;
+font-family: bitter, serif;
+font-weight: bold;
+font-size: 14px;
+letter-spacing: 1.5px;
+}
+/* Add date and name, text align center and apply typography styles */
+
+.info span {
+  color: #e95400;  
+} 
