@@ -7,12 +7,12 @@
     --heading-font: "bitter", serif;
     --h1-size: 80px;
     --h2-size: 50px;
-    --h3-size: 48px;
+    --h3-size: 45px;
     --h4-size: 30px;
-    --h5-size: 24px;
-    --h6-size: 20px;
+    --h5-size: 26px;
+    --h6-size: 23px;
+    --h7-size: 20px;
     /* to add color:var(--text-dark); */
-
 }
 
 
@@ -32,11 +32,51 @@ body {
  h3,
  h4,
  h5,
- h6 {
+ h6,
+ h7 {
     font-family: var(--heading-font);
     font-weight: 500;
 }
 /* add basic typography to heading style's*/
+
+h1 {
+    font-size: var(--h1-size);
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    margin: 0;
+   }   
+
+h2 {
+    font-size: var(--h2-size);
+    letter-spacing: -0.5px;
+    font-weight: 500;
+ }
+
+ h3 {
+    font-size: var(--h3-size);
+    letter-spacing: 0px;
+ }
+
+ h4 {
+    font-size: var(--h4-size);
+    letter-spacing: 0.25px;
+ }
+
+ h5 {
+    font-size: var(--h5-size);
+    letter-spacing: 0.25px;
+ }
+
+ h6 {
+    font-size: var(--h6-size);
+    letter-spacing: 0.25px;
+ }
+
+ h7 {
+    font-size: var(--h7-size);
+    letter-spacing: 0.25px;
+ }
+
 
 .content {
     max-width: 900px;
@@ -57,3 +97,13 @@ letter-spacing: 1.5px;
 .info span {
   color: #e95400;  
 } 
+
+.headline {
+ text-transform: uppercase;
+ font-weight: 500;
+ letter-spacing: 0px;
+ margin: 40px 0;
+ font-size: 18px;
+}
+
+
